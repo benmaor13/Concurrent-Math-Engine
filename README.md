@@ -2,6 +2,8 @@
 
 ## Project Overview
 This project is a high-concurrency engine designed to execute complex linear algebra operations, such as Matrix Addition, Multiplication, Transpose, and Negation, across a multi-threaded architecture. The core focus of the system is to maximize CPU utilization by decomposing nested mathematical expressions into atomic tasks, which are then distributed across a specialized, fatigue-aware thread pool.
+* **This project was developed as a joint academic effort at Ben-Gurion University in collaboration with a project partner.**
+* **Final Version Showcase**: This repository contains the final, refactored version of the engine, optimized for performance and code clarity.
 
 ## Core Engineering Features
 
