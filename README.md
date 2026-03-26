@@ -20,7 +20,7 @@ The engine manages shared matrix resources using a tiered locking strategy desig
 
 ### 3. Tree-Based Task Decomposition
 The engine parses complex JSON based computations into a recursive tree of ComputationNode instances:
-* **Iterative Resolution**: The engine identifies "resolvable" nodes those whose operands are already concrete matrices—and prepares them for execution.
+* **Iterative Resolution**: The engine identifies "resolvable" nodes those whose operands are already concrete matrices and prepares them for execution.
 * **Scalable Task Execution**: Operations are decomposed into individual Runnable tasks, allowing the custom thread pool to execute massive matrix operations in parallel across all available cores.
 
 ## Project Structure
